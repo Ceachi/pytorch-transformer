@@ -75,5 +75,5 @@ def translate(sentence: str):
     # convert ids to tokens
     return tokenizer_tgt.decode(decoder_input[0].tolist())
     
-#read sentence from argument
-translate(sys.argv[1] if len(sys.argv) > 1 else "I am not a very good a student.")
+# #read sentence from argument
+# translate(sys.argv[1] if len(sys.argv) > 1 else "I am not a very good a student.")
